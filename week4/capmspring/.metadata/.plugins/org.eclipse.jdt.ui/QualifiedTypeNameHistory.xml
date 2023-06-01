@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.modelmapper.convention.MatchingStrategies"/>
     <fullyQualifiedTypeName name="kodlama.io.rentACar.business.responses.GetAllBrandsResponse"/>
     <fullyQualifiedTypeName name="java.util.stream.Collector"/>
     <fullyQualifiedTypeName name="org.hibernate.transform.ToListResultTransformer"/>
@@ -57,7 +56,8 @@
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="kodlama.io.rentACar.core.utilities.exceptions.ValidationProblemDetails"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="org.springframework.validation.FieldError"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.MethodArgumentNotValidException"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.lang.NoSuchFieldError"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.FieldError"/>
 </qualifiedTypeNameHistroy>

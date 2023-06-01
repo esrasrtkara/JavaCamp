@@ -5,5 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import Kodlama.io.Devs.entities.concretes.Language;
 
 public interface LanguageResponsitory extends JpaRepository<Language, Integer> {
+	
+	boolean existsByName(String name);
 
 }

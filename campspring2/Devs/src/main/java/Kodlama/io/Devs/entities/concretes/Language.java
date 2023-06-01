@@ -14,7 +14,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Table(name = "Language")
 @Data
 @AllArgsConstructor
@@ -22,16 +21,16 @@ import lombok.NoArgsConstructor;
 @Entity
 @Builder
 public class Language {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@Column(name = "id")
 	private int id;
-	
+
 	@Column(name = "name")
 	private String name;
-	
-	 @OneToMany(mappedBy = "language")
-	    private List<Framework> frameworks;
+
+	@OneToMany(mappedBy = "language")
+	private List<Framework> frameworks;
 
 }

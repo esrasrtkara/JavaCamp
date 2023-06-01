@@ -11,7 +11,7 @@ public interface FrameworkService {
 	
 	List<GetAllFrameworkResponse> getAll();
 	void add(CreteFrameworkRequest creteFrameworkRequest);
-	void delete(CreteFrameworkRequest creteFrameworkRequest);
-	void update(CreteFrameworkRequest creteFrameworkRequest);
+	//void delete(CreteFrameworkRequest creteFrameworkRequest);
+	//void update(CreteFrameworkRequest creteFrameworkRequest);
 
 }
